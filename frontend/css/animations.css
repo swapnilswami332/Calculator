@@ -1,0 +1,51 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.key {
+  position: relative;
+  overflow: hidden;
+}
+
+.key::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.key:active::after {
+  opacity: 1;
+}
+
+.tool-panel {
+  transition: box-shadow 0.3s ease;
+}
+
+.tool-panel:hover {
+  box-shadow: var(--shadow), 0 0 40px rgba(108, 92, 231, 0.08);
+}
