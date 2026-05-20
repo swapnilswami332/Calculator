@@ -7,7 +7,7 @@ A full-stack calculator suite with a **FastAPI** backend and a premium **JavaScr
 - **Basic calculator** — arithmetic with history
 - **Engineering calculator** (Advanced mode) — trig, log, powers, factorial, memory, DEG/RAD, keyboard shortcuts
 - **Age counter** — years, months, days lived
-- **Currency converter** — live rates with cache + static fallback
+- **Currency converter** — 150+ ISO currencies, live rates with cache + static fallback
 - **Interest calculator** — simple and compound
 - **Time calculator** — add, subtract, difference
 - **Date counter** — days between dates, add/subtract days
