@@ -7,7 +7,6 @@
 **NexusCalc** is a full-stack calculator web application with a **FastAPI** backend and a premium **JavaScript / HTML / CSS** frontend. It combines everyday utilities (currency, age, interest, time, date) with a scientific **engineering calculator** in a single polished interface.
 
 **Repository:** [github.com/swapnilswami332/Calculator](https://github.com/swapnilswami332/Calculator)
-
 ---
 
 ## Table of contents
